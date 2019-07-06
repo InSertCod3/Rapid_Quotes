@@ -7,7 +7,7 @@ from . import BP_API
 from .. import models
 
 
-@BP_API.route('/user', methods=['GET'])
-def user():
-    """ Base Class to Show info of current user """
+@BP_API.route('/quote', methods=['GET'])
+def quote():
+    """ Base Class to Show random quote """
     return jsonify({'ERROR': "NOT IMPLEMENTED"})
