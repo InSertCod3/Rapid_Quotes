@@ -5,7 +5,10 @@ import json
 # Relative Imports
 from . import utils
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
+
+QUOTES_DATASET = os.path.join(BASE_DIR, "data", "quotes.json")
 
 class Config(object):
     """[summary]
